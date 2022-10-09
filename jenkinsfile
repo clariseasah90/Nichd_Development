@@ -1,9 +1,9 @@
 node {
     stage('Continues Download ') {
-    git branch: '/geico', url: 'https://github.com/clariseasah90/Nichd_Development.git'
-	  stage('Continues Build') {
+    git branch: 'geico', url: 'https://github.com/clariseasah90/Nichd_Development.git'
+    stage('Continues Build') {
     sh 'mvn package'
-	  stage('Continues Testing') {
+    stage('Continues Testing') {
     echo 'Build has passed'
 }
 }
