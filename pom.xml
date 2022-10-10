@@ -18,8 +18,8 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <sonar.host.url>http://10.253.89.89:9000/</sonar.host.url>
-	  <sonar.login></sonar.login>
-	  <sonar.password>admin</sonar.password>
+    <sonar.login>admin</sonar.login>
+    <sonar.password>NIH2day!</sonar.password>
   </properties>
 
   <dependencies>
